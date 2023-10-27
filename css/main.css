@@ -1,40 +1,30 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-img {
-  max-width: 100%;
-}
-
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-body {
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.4);
 }
 body h1 {
   font-size: 50px;
   font-weight: normal;
-  color: #000;
+  color: tomato;
+}
+
+.btn--secondary, .btn--primary {
+  border: 1px solid tomato;
+  background-color: tomato;
+  padding: 0.8em 1.6em;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn--secondary:hover, .btn--primary:hover {
+  background-color: #ff3814;
+}
+
+.btn--secondary {
+  border-color: darkgreen;
+  background-color: darkgreen;
+  color: white;
+}
+
+.btn--secondary:hover {
+  background-color: #003100;
 }/*# sourceMappingURL=main.css.map */
