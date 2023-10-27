@@ -29,4 +29,66 @@ img {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.btn--secondary, .btn--primary {
+  border: 1px solid tomato;
+  background-color: tomato;
+  padding: 0.8em 1.6em;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn--secondary:hover, .btn--primary:hover {
+  background-color: #ff3814;
+}
+
+.btn--secondary {
+  border-color: darkgreen;
+  background-color: darkgreen;
+  color: white;
+}
+
+.btn--secondary:hover {
+  background-color: #003100;
+}
+
+.card {
+  max-width: 250px;
+}
+.card:hover {
+  -webkit-box-shadow: 5px 5px 15px gray;
+          box-shadow: 5px 5px 15px gray;
+}
+.card__image {
+  display: block;
+}
+.card__body {
+  background-color: white;
+  padding: 1rem 1.5rem;
+}
+.card__title {
+  font-weight: 600;
+}
+.card__text {
+  color: #333;
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgba(255, 99, 71, 0.4);
+}
+body h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: tomato;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 400px;
+  }
+  .card__title {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */

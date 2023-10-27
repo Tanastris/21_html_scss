@@ -1,0 +1,9 @@
+@mixin btn($color: tomato) {
+  border: 1px solid $color;
+  background-color: $color;
+  padding: 0.8em 1.6em;
+  font-size: 17px;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($color, 10);
+}
