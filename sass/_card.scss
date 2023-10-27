@@ -1,0 +1,24 @@
+// CARD
+.card {
+  &:hover {
+    box-shadow: 5px 5px 15px gray;
+  }
+  &__image {
+    display: block;
+  }
+  max-width: 250px;
+  &__body {
+    background-color: white;
+    padding: 1rem 1.5rem;
+  }
+  &__title {
+    font-weight: 600;
+  }
+  &__text {
+    color: #333;
+    line-height: 1.5;
+  }
+}
+// &:hover {
+//   box-shadow: 5px 5px 15px gray;
+// }
