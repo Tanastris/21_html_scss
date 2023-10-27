@@ -31,26 +31,39 @@ img {
   padding-right: 15px;
 }
 
-.btn--secondary, .btn--primary {
+.btn--primary {
   border: 1px solid tomato;
   background-color: tomato;
   padding: 0.8em 1.6em;
   font-size: 17px;
   cursor: pointer;
 }
-
-.btn--secondary:hover, .btn--primary:hover {
+.btn--primary:hover {
   background-color: #ff3814;
 }
 
 .btn--secondary {
-  border-color: darkgreen;
+  border: 1px solid darkgreen;
   background-color: darkgreen;
+  padding: 0.8em 1.6em;
+  font-size: 17px;
+  cursor: pointer;
   color: white;
 }
-
 .btn--secondary:hover {
   background-color: #003100;
+}
+
+.btn--secondary1 {
+  border: 1px solid indigo;
+  background-color: indigo;
+  padding: 0.8em 1.6em;
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+}
+.btn--secondary1:hover {
+  background-color: #2e004f;
 }
 
 .card {
