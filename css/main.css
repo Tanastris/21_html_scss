@@ -1,3 +1,36 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 body {
   background-color: rgba(255, 99, 71, 0.4);
 }
@@ -27,4 +60,26 @@ body h1 {
 
 .btn--secondary:hover {
   background-color: #003100;
+}
+
+.card {
+  max-width: 250px;
+}
+.card:hover {
+  -webkit-box-shadow: 5px 5px 15px gray;
+          box-shadow: 5px 5px 15px gray;
+}
+.card__image {
+  display: block;
+}
+.card__body {
+  background-color: white;
+  padding: 1rem 1.5rem;
+}
+.card__title {
+  font-weight: 600;
+}
+.card__text {
+  color: #333;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */

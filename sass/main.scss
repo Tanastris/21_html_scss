@@ -1,4 +1,4 @@
-// @import "reset";
+@import "reset";
 
 // sass kintamieji
 $primary: tomato;
@@ -6,7 +6,7 @@ $fontLarge: 50px;
 
 body {
   background-color: transparentize($primary, 0.6);
-  h1{
+  h1 {
     font-size: $fontLarge;
     font-weight: normal;
     color: $primary;
@@ -35,3 +35,28 @@ body {
 .btn--secondary:hover {
   background-color: darken($color: darkgreen, $amount: 10);
 }
+
+// CARD
+.card {
+  &:hover {
+    box-shadow: 5px 5px 15px gray;
+  }
+  &__image {
+    display: block;
+  }
+  max-width: 250px;
+  &__body {
+    background-color: white;
+    padding: 1rem 1.5rem;
+  }
+  &__title {
+    font-weight: 600;
+  }
+  &__text {
+    color: #333;
+    line-height: 1.5;
+  }
+}
+// &:hover {
+//   box-shadow: 5px 5px 15px gray;
+// }
